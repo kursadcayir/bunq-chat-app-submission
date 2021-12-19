@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches to empty chat snapshot 1`] = `
+<div
+  className="position-relative container-fluid d-flex flex-column flex-lg-row"
+>
+  <div
+    className="chat-list chat-box-bg px-4 py-3 col-12 col-lg-3 me-4 "
+  >
+    <div
+      className="button-userinfo-wrapper d-flex justify-content-between align-items-center pb-2 mb-4"
+    >
+      <button
+        className="btn back"
+        onClick={[Function]}
+        type="button"
+      />
+      <button
+        className="btn add-chat"
+        onClick={[Function]}
+        type="button"
+      />
+    </div>
+    <div
+      className="chat-list-header"
+    >
+      <div
+        className="chat-list-search-div mx-1 mb-3"
+      >
+        <input
+          className="chat-list-search w-100"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="chat-list-body px-1"
+    >
+      <p>
+        Empty Chat
+      </p>
+      <ul
+        className="ms-0 ps-0"
+      />
+    </div>
+    <div
+      className="chat-list-footer"
+    />
+  </div>
+   
+  <div
+    className="chat-wrapper chat-box-bg px-4 py-5 pt-3 mt-lg-0 col-12 col-lg-9"
+  >
+    <div
+      className="ds-none"
+    >
+       
+      <button
+        className="btn back mb-2 d-lg-none"
+        onClick={[Function]}
+        type="button"
+      />
+       
+    </div>
+    <div
+      className="chat-header d-flex flex-row justify-content-between px-3 py-2"
+    >
+      <h1
+        data=""
+      >
+        Chat 
+        
+      </h1>
+      <span
+        onClick={[Function]}
+      >
+         Chat Info
+      </span>
+    </div>
+    <div
+      className="chat-body px-1"
+    >
+      <span
+        id="spanForScroll"
+      />
+    </div>
+    <div
+      className="chat-footer"
+    >
+      <div
+        className="d-flex"
+      >
+        <input
+          autoComplete="off"
+          className="w-100 px-3 me-2"
+          id="message"
+          name="message"
+          onChange={[Function]}
+          onKeyUp={[Function]}
+          placeholder="Type a message"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn"
+          id="sendMessageButton"
+          onClick={[Function]}
+          tabIndex={0}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
