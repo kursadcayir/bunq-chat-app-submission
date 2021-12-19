@@ -1,0 +1,61 @@
+.message-item-me {
+    text-align: end;
+}
+.message-item-me .message-item-body,
+.message-item .message-item-body
+{
+    border-radius: 20px;
+    font-size:14px;
+}
+.message-item-me .message-item-body p,
+.message-item .message-item-body p
+{
+    font-size:14px;
+}
+.message-item .message-item-body
+{
+    background-color:#f3f5f9;
+    color:#444444;
+    border-top-left-radius: 0;
+}
+.message-item-me .message-item-body
+{
+    background-color:#4d426d;
+    color:#fff;
+    border-top-right-radius: 0;
+}
+
+.message-item-me .message-item-body h3,
+.message-item .message-item-body h3
+{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.message-item .message-item-body h3
+{
+    color: #2bbf99;
+}
+.message-item-me .message-item-body h3
+{
+    color: #afbf2b;
+}
+
+.message-item-me .message-item-body p:first-letter,
+.message-item .message-item-body p:first-letter
+{
+    text-transform: capitalize;
+}
+
+.message-item .message-item-body span,
+.message-item-me .message-item-body span
+{
+    opacity:.3;
+    font-size:12px;
+}
+.message-item .message-item-body span:hover,
+.message-item-me .message-item-body span:hover
+{
+    opacity:.6;
+}

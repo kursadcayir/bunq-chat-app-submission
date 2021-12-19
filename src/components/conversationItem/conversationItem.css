@@ -1,0 +1,11 @@
+.chat-list-body-chat-body-content span.con-last-message-date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    display: block;
+}
+
+.chat-list-body-chat-name {
+    text-transform: capitalize;
+    flex-flow: wrap;
+}
