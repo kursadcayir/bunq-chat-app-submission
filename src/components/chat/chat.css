@@ -1,0 +1,102 @@
+.chat-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+    background: #e3e8f1;
+    border-radius: 10px;
+}
+
+.chat-header h1 {
+    font-size: 22px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.chat-header span {
+    background: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.chat-header span:hover {
+    background: darkgray;
+}
+
+.chat-body {
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.chat-detail-wrapper ul {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chat-detail-wrapper ul li {
+    list-style-type: none;
+    padding-bottom: .5rem;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 1px solid lightgray;
+    background: lightgray;
+    padding: 0.2rem 1rem;
+    border-radius: 30px;
+    margin: 0.2rem 0.5rem;
+}
+
+.chat-detail-wrapper ul li:first-child {
+    margin-left: 0;
+}
+
+.chat-detail-wrapper p {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: 666;
+}
+
+.chat-detail-wrapper {
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.chat-footer input {
+    border: none;
+    background-color: #f5f7fb;
+    border-radius: 50px;
+    flex: 1;
+}
+
+.chat-footer input:focus {
+    outline: 0;
+}
+
+.chat-footer button {
+    background-color: #3ba58b;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url("../../img/send.svg");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Sending {
+    background-color: #3ba58b;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f7fb;
+    font-size: 10px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}

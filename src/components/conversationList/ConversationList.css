@@ -1,0 +1,106 @@
+.chat-list-body {
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.chat-list-body-chat-name {
+    text-transform: capitalize;
+    flex-flow: wrap;
+}
+
+.chat-list-body-chat-name span.con-name {
+    font-size: 18px;
+    font-weight: 400;
+    color: lightseagreen
+}
+
+.chat-list-body-chat-name span.con-last-seen {
+    font-size: 10px;
+    font-weight: 400;
+    color: #666;
+    display: block;
+}
+
+.chat-list-body-chat-last-seen p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* button.back {
+    background-image: url("../../img/back.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+} */
+
+button.add-chat {
+    background-color: #3ba58b;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url('../../img/add-chat.svg');
+    background-size: 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button.btn-create-chat {
+    background: #fff;
+    border: 2px solid #3ba58b;
+    border-radius: 7px;
+    color: #3ba58b;
+}
+
+.chat-list-search {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-size: 14px;
+    padding: .3rem .5rem;
+}
+
+.chat-list-body ul li {
+    list-style-type: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #e9e9e9;
+}
+
+.chat-list-body ul li:hover {
+    background-color: #f3f3f3;
+}
+
+.button-userinfo-wrapper {
+    border-bottom: 1px solid lightgray;
+}
+
+ul#create-chat {
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+ul#create-chat li {
+    list-style-type: none;
+    padding-bottom: .5rem;
+    text-transform: capitalize;
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding: 0.2rem 0.5rem;
+    border-radius: 30px;
+    margin: 0.2rem 0.5rem;
+}
+
+ul#create-chat li input {
+    margin-right: .5rem;
+}
+
+#groupChatName {
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid lightgray
+}

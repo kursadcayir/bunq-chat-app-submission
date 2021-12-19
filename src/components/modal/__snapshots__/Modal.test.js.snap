@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Modal SnapShot 1`] = `
+<section
+  class="modal-card-body"
+>
+    
+  THIS IS TEST CASE
+   
+</section>
+`;

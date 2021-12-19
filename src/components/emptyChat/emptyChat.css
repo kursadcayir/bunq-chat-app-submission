@@ -1,0 +1,18 @@
+.empty-chat {
+    min-height: 150px;
+}
+
+.empty-chat span {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #d8f3ed;
+    font-weight: 600;
+    left: 0;
+    right: 0;
+}
